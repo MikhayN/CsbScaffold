@@ -8,5 +8,13 @@
 //open FSharp.Stats
 //FSharp.Stats.Algebra.LinearAlgebra.Service()
  
-open BioFSharp
+#load "PQ.fs"
+
+open PQ
+
+// test for PQ usage
+// upload kinetic data in \data folder
+// read data with FSharpAux.IO library
+// create a matrix of distances between kinetic data
+// load all values in the matris into the PQ and show how to get sorted distances out of it
 
